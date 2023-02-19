@@ -27,9 +27,8 @@ void loop() {
   drv.setWaveform(3, 16);
   drv.setWaveform(4, 16);
   drv.setWaveform(5, 16);
-  drv.setWaveform(6, 16);
+  drv.setWaveform(6, 0);
   drv.go();
-  delay(5000);
   drv.setWaveform(0, 70);
   drv.setWaveform(1, 0);
   drv.go();
