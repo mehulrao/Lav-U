@@ -75,7 +75,7 @@ void setup() {
     myFilter.init(sampleRate, humFreq, true, true, true);
 
     // open serial
-    Serial.begin(xf);
+    Serial.begin(115200);
 
 }
 
